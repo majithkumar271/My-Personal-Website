@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="app.js"></script>
+    <script>
+        function fun(str1){
+            var s1=document.getElementsByClassName('items')
+            if (str1=='about'){
+                window.location='about.html'
+            }else 
+            if (str1=='index'){
+                window.location='index.html'
+            }else
+            if (str1=='Skills'){
+                window.location='skills.html'
+            }else
+            if (str1=='contact'){
+                window.location='contact.html'
+            }else
+            if (str1=='portfolio'){
+                window.location='portfolio.html'
+            }
+            if (str1 == 'Educationdetails'){
+                window.location='Educationdetails.html'
+            }
+            if (str1 == 'certificate'){
+                window.location='certification.html'
+            }
+     
+        }
+    </script>
+</head>
+
+    
+
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items" onclick="fun('Skills')">Skills</button>
+        <button class="items" onclick="fun('portfolio')">Projects</button>
+        <button class="items" onclick="fun('contact')">contact</button>
+        <button class="items" onclick="fun('Educationdetails')">Education</button>
+        <button class="items" onclick="fun('index')">Hire Me</button> 
+        <button class="items" onclick="fun('certificate')">Certificate</button> 
+    </div>
+
+
+
+<!--B TECH PROJECT-->
+
+
+    <fieldset class="head2">
+        <legend class="tile2">Car Traffic Sign Recognizer Using Convolutional Neural Network CNN</legend>
+
+           <p> in self-driving vehicle/driverless vehicle, traffic planning and traffic observation.
+               Traffic Sign Recognition (TSR) framework is a segment of Driving Assistance System (ADAS).  
+               The TSR framework helps the drivers in safe driving as street signs give significant data of the street.
+               The car business has built up a great deal and a portion of the organizations are attempting to assemble
+               self-sufficient vehicles and in which traffic sign acknowledgment is one of the significant factors to be
+               thought of. To perceive the traffic signs, a model utilizing convolutional neural network is fabricated and
+               this model will perceive the traffic signs. This model can likewise be utilized in typical vehicles to caution 
+               the driver about traffic signs through content identification.</p>
+ 
+    </fieldset>
+
+<!--A A Fraud detection system using Machine Learning-->
+    
+    <fieldset class="head2" class="hidden">
+        <legend class="tile2">A Fraud detection system using Machine Learning</legend>
+            <P>
+                Financial services are being used everywhere and
+function with high complexity. With the increase in the usage
+of online modes for transacting throughout the world it is seen
+that the frauds too are increasing alarmingly in this sector. An
+automated Fraud Detection System is thus required to tackle
+this issue. Over the years, many techniques are being tried in
+order to efficiently tackle this issue. With millions of transactions
+taking place it is practically impossible to take care of this by
+manually checking for frauds.With that being said, speed and
+accuracy is needed while building such systems. Our system not
+only works in these areas but also provides better accuracy which
+in-turn will end up saving a lot of resources and the cost incurred.
+Our aim with this research is to provide a robust, cost effective,
+efficient yet accurate solution to detect frauds in both online
+payment transactions and payments that take place with credit
+cards. The proposed solution is a Machine Learning model that
+will serve the purpose of detecting “fraudulent” and “genuine”
+transactions in real time. This is beneficial for all sectors that
+are even mildly aligned to finance or make use of it. The solution
+will help them analyse based on various factors if the ongoing
+transaction can be harmful and will prevent many unfortunate
+incidents.
+            </P>
+    </fieldset>
+
+    <div class="footer" class="hidden" >
+          &copy; 2023 MAK ALL RIGHTS RESERVED.
+    </div>
+</body>
+</html>

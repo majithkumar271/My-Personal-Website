@@ -1,0 +1,137 @@
+*{
+  background-image: linear-gradient(to right, #ffefba, #ffffff);
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1%;
+  background-image: url(https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-63606.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:none ;
+}
+
+
+
+#head{
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+
+
+
+}
+
+button{
+  border-radius: 5px;
+  display: list-item;
+  justify-content: space-between;
+}
+
+
+
+
+.items:hover{
+  background-color: rgb(46, 62, 236);
+  color: black;
+  box-shadow: -0.3ch 0.3ch  -0.3ch 0.3ch  0.5ch whitesmoke;
+  transform: scale(1);
+
+}
+
+
+.items{
+  flex:1;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px auto;
+  text-align: center;
+  padding: 2px;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.2s;
+
+}
+
+
+
+
+
+fieldset{
+  margin-top: 10%;
+  margin-left: 20%;
+  border: soild 1px white;
+  height: auto;
+  width: 60%;
+  line-height: 4ch;
+  color: white;
+
+  padding: 10px auto;
+  border-radius: 20px;
+  box-shadow: -0.3ch -0.3ch 5ch 1ch rgb(249, 244, 244);
+  box-shadow: 0.3ch 0.3ch 5ch 1ch rgb(236, 236, 233);
+  text-align: center;
+  padding: 10px auto;
+  animation: down linear 0.9s 1 ;
+
+}
+
+@keyframes down {
+  from {
+
+    transform: translateY(110%);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateY(0%);
+  }
+}
+
+
+
+legend{
+  border:1px solid white   ;
+  border-radius: 8px;
+  box-shadow: -0.3ch -0.3ch 1ch 1ch rgb(237, 234, 234);
+  box-shadow: 0.3ch 0.3ch 1ch 1ch rgb(238, 238, 237);
+}
+
+
+.footer{
+  text-align: center;
+  padding: 30PX;
+
+}
+
+
+
+@media screen and (max-device-width:428px),screen and (max-width:428px) 
+{
+*{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+}
+
+
+
+@media screen and (max-device-width:237px),screen and (max-width:237px) 
+{
+*{
+  font-size: 8px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+}
+
+
+
+
+@media screen and (max-device-width:190px),screen and (max-width:190px) 
+{
+*{
+  font-size: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+}

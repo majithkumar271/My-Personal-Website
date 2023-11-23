@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </span><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+ 
+<script>
+    function fun(str1){
+        var s1=document.getElementsByClassName('items')
+        if (str1=='about'){
+            window.location='about.html'
+        }else 
+        if (str1=='index'){
+            window.location='index.html'
+        }else
+        if (str1=='Skills'){
+            window.location='skills.html'
+        }else
+        if (str1=='contact'){
+            window.location='contact.html'
+        }else
+        if (str1=='portfolio'){
+            window.location='portfolio.html'
+        }
+        if (str1 == 'Educationdetails'){
+            window.location='Educationdetails.html'
+        }
+        if (str1 == 'certificate'){
+            window.location='certification.html'
+        }
+    }
+</script>
+
+
+</head>
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items"onclick="fun('Skills')">Skills</button>
+        <button class="items"onclick="fun('portfolio')">Projects</button>
+        <button class="items" onclick="fun('contact')">contact</button>
+        <button class="items" onclick="fun('Educationdetails')">Education</button>
+        <button class="items" onclick="fun('certificate')">Certificate</button> 
+        <button class="items" onclick="fun('index')">Hire Me</button> 
+    </div>
+    <div id="pic">
+        <img src="pic1.png">
+        <div id="about">
+            <center>
+            <h4><b>Hi, It's Me</b></h4> <br>
+            <h1>MUNIRAJU AJITHKUMAR</h1>
+            I'm an aspiring data scientist with a strong foundation in data analysis and a B.Tech degree. 
+            I'm eager to apply my skills to extract actionable insights from data and drive data-driven decisions in a dynamic role.
+          
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/muniraju-ajithkumar-518901222" id="linked" class="fa fa-linkedin"></a>
+                <a href="" id="insta" class="fa fa-instagram"></a>
+                <a href="https://github.com/majithkumar271" id="git" class="fa fa-github"></a>
+                <a href="" id="face" class="fa fa-facebook"></a>
+                <a href="https://credly.com/users/muniraju-ajithkumar" id="creadly" class="material-symbols-outlined" >workspace_premium</a>
+                <a href="https://www.cloudskillsboost.google/public_profiles/8046d352-81d7-4c13-8490-cc0bd3265ff0" id="google" class="material-symbols-outlined">cloud</a>
+            </div>
+        </div>
+    </center>
+
+    </div>
+ 
+    <div id="name">
+        <div>MUNIRAJU AJITHKUMAR</div>
+    </div>
+        <a href="AK resume.pdf" id="download">
+            <button id="download_style">Download CV</button>
+        </a>
+    </div>
+
+
+
+<center>
+    <div class="footer">
+        &copy; 2023 MAK ALL RIGHTS RESERVED.
+    </div>
+</center>
+</body>
+</html>
